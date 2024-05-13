@@ -17,7 +17,8 @@ public class game {
         System.out.print("Masukkan nama player: ");
         petani.nama=a.nextLine();
         petani.speed= 78;
-        petani.healthPoin= 4;
+        petani.healthPoin= 0;
+        
         
         petani.run();
         
